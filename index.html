@@ -1,1 +1,257 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="logo.png">
+  <title>Food Basket</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="bulma.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <section class="hero bg is-large has-text-centered">
+    <div class="hero-head">
+      <nav class="navbar is-white">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" onclick="$('html,body').animate({ scrollTop: $('body').offset().top }, 'slow');">
+              <img src="logo.png" alt="Food Basket" width="80">
+            </a>
+
+          </div>
+          <div class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item" onclick="$('html,body').animate({ scrollTop: $('#projectdescription').offset().top - 65 }, 'slow');">
+                Project Description
+              </a>
+              <a class="navbar-item" onclick="$('html,body').animate({ scrollTop: $('#beta').offset().top - 65 }, 'slow');">
+                Beta Release
+              </a>
+              <a class="navbar-item" onclick="$('html,body').animate({ scrollTop: $('#bug').offset().top - 65 }, 'slow');">
+                Report a Bug
+              </a>
+              <a class="navbar-item" onclick="$('html,body').animate({ scrollTop: $('#about').offset().top - 65 }, 'slow');">
+                Our Team
+              </a>
+              <a class="navbar-item" href="" target = "_blank">
+                Feedback
+              </a>
+              <a class="navbar-item" href="https://github.com/MirRaonaq/AndroidBots" target = "_blank">
+                GitHub
+              </a>
+            </div>
+          </di>
+        </div>
+      </nav>
+    </div>
+
+    <div class="hero-body">
+      <div class="container">
+        <div class="is-hidden-desktop" style="height:100px;"></div>
+        <h1 class="title">
+          Food Basket
+        </h1>
+        <br>
+        <h2 class="subtitle">
+          Share Your Food!
+          Claim Free Food!
+        </h2>
+        <img src="phone.png" alt="Food Basket" length="50px">
+        <h3> Currently Supports Android API </h3>
+        <br>
+        <a class="button is-info" href="" target = "_blank">Download Android-APK</a>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section id="projectdescription" class="section">
+    <div class="container has-text-centered">
+      <div class="notification">
+        <h1 class="title">
+          Project Description
+        </h1>
+        <p>
+          Food Basket is for free food and items.
+          <br>
+          Suppose you are at an event and at the end there are pizza slices left. Instead of it going to waste, you can share the food with the community or people near you. Food Basket allows you to snap a picture of the food, then give a description, and location such as building, room number, and quantity. Users nearby will receive a notification of the food and will have the chance to claim it.
+        </p>
+        <br>
+        <p> We want the best for our users so please keep these in mind... </p>
+        <br>
+        <ul>
+          <li>∙ No "half eaten food" meaning no food that someone has taken a bite out of</li>
+          <li>∙ Leave food in a sanitary area</li>
+          <li>∙ Food should be left in an area accessible by other users</li>
+        </ul>
+        <br>
+        <br>
+        <p> Want to join us? Check out our developer documentation!</p>
+        <a href="https://github.com/MirRaonaq/AndroidBots/wiki/Developer-Documentation" target = "_blank"><img src="git.png" width=200px></a>
+        <p> Interested in our progress? Check out our videos! </p>
+        <a href="https://www.youtube.com/user/ModernHotShot/videos?disable_polymer=1" target = "_blank"><img src="youtube.png" width=200px></a>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+  <section id="beta" class="section">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Test our Beta Release
+      </h1>
+      <br>
+      <h2 class="subtitle">
+        <u>Install APK Through Computer</u>
+      </h2>
+      <br>
+      <div class="columns">
+        <div class="column">
+          <p class="bd-notification is-blue">Step 1: </p>
+          <br>
+          <p> <strong>Precaution</strong></p>
+          <hr>
+          <p> Before you can install the APK on your phone you will need to make sure that third-party apps are allowed on your device. Go to <strong> Menu > Settings > Security ></strong> and check <strong> Unknown Sources </strong> to allow your phone to install apps from sources other than the Google Play Store. </p>
+        </div>
+        <div class="column">
+          <p class="bd-notification is-danger">Step 2: </p>
+          <br>
+          <p> <strong>Download the APK here: </strong></p>
+          <a class="button is-info" href="" target = "_blank">Download </a>
+          <br>
+          <br>
+          <p> Note: Food Basket is currently available in Andorid devices</p>
+          <br>
+          <p> Once you've downloaded the APK file on your computer, connect your device to your computer. <br> <br> At this point, you may be asked if you want to charge your phone or connect it as a 'media device.' Choose <strong> Media device</strong>.</p>
+        </div>
+        <div class="column">
+          <p class="bd-notification is-green">Step 3: </p>
+          <br>
+          <p> <strong>Installation </strong></p>
+          <hr>
+          <p> Find your phone's folder on your computer. It will be in 'My Computer' or 'Computer' on Windows (PC). <br><br> Then, copy the APK file into a folder of your choice in your Android smartphone.
+
+            You will now be able to search for the file location in the <strong>My files</strong> folder of your device. Find the APK file, tap it, then hit <strong>Install</strong>.</p>
+          </div>
+          <div class="column">
+            <p class="bd-notification is-yellow">Step 4: </p>
+            <br>
+            <p> <strong>Feedback </strong></p>
+            <hr>
+            <p> Congratulations, you've installed Food Basket! </p>
+            <br>
+            <br>
+            <p> We love to hear from our users, please leave your <a href="" target = "_blank">feedback.</a></p>
+          </div>
+        </div>
+        <br>
+        <h2 class="subtitle">
+          <u>Install APK Through Android Device</u>
+        </h2>
+        <p>You can also install APK files from the browser on your Android smartphone or tablet. <br><br>Open your browser, naviagte to this page, tap the download button above. You should then be able to see it downloading on the top bar of your device. Once it's downloaded, open <strong>Downloads </strong>, tap on the APK file, and tap Yes when prompted. The app will begin installing on your device.</p>
+      </div>
+    </section>
+    <hr>
+
+    <section id="bug" class="section">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          How to Report a Bug
+        </h1>
+
+
+        <div class="columns">
+          <div class="column is-1"></div>
+          <div class="column is-3">
+            <div class="box">
+              <h2 class="subtitle">
+                Step 1:
+              </h2>
+              <p class="content">
+                Navigate to our GitHub <a href="https://github.com/MirRaonaq/AndroidBots/issues" target = "_blank"style="color: black; text-decoration:underline" class = "text-muted">Issues </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="box">
+              <h2 class="subtitle">
+                Step 2:
+              </h2>
+
+              <p class="content">
+                Create a new issue, title the issue as a bug.
+              </p>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="box">
+              <h2 class="subtitle">
+                Step 3:
+              </h2>
+              <p class="content">
+                1. Provide which Android version you used and a brief description of the bug
+                <br>
+                2. How to reproduce the bug
+                <br>3.
+                <strong>If you used Android Studio:</strong>
+                What error message did you receive
+                <br>
+                4. Submit
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+      <hr>
+
+      <section id="about" class="section">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            Our Team
+          </h1>
+
+          <br>
+          <br>
+          <div class="columns">
+            <div class="column"></div>
+            <div class="column is-10">
+
+              <div class="columns">
+                <div class="column">
+                  <a href="https://mirraonaq.github.io" target = "_blank"style="color: black; text-decoration:underline" class = "text-muted">Mir Raonaq </a>
+                </div>
+
+                <div class="column">
+                  <a href="https://github.com/Nazat95" target = "_blank"style="color: black; text-decoration:underline" class = "text-muted">Fatin Nazat </a>
+                </div>
+
+                <div class="column">
+                  <a href="https://github.com/KemoAli" target = "_blank"style="color: black; text-decoration:underline" class = "text-muted">Kemo Ali </a>
+                </div>
+
+                <div class="column">
+                  <a href="https://github.com/wentaoch" target = "_blank"style="color: black; text-decoration:underline" class = "text-muted">Wentao Chen </a>
+                </div>
+                <div class="column">
+                  <a href="https://github.com/ziangzha" target = "_blank"style="color: black; text-decoration:underline" class = "text-muted">Ziang Zhao </a>
+                </div>
+              </div>
+            </div>
+            <div class="column"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <script type="text/javascript" src="/static/js/arrow.js?q=1509404388"></script>
+  </body>
+  </html>
